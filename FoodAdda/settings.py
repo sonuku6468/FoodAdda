@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'FoodBank.urls'
+ROOT_URLCONF = 'FoodAdda.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'FoodBank.wsgi.application'
+WSGI_APPLICATION = 'FoodAdda.wsgi.application'
 
 
 # Database
